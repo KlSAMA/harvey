@@ -10,7 +10,7 @@ body {
   .heart-button {
     background-color: transparent;
     border: none;
-    font-size: 50px;
+    font-size: 50in;
     color: #e63946;
     cursor: pointer;
     transition: transform 0.3s, color
