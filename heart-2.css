@@ -23,7 +23,7 @@ animation: beat 2s infinite;
     color: #ff6f61;
   }
   @keyframes beat{
-0%{transform: scale(1);}
+0%{transform: scale(0.5);}
 20%{transform: scale(1.2)}
 40%{transform: scale(0.5)}
 }
