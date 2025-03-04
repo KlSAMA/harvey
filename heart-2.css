@@ -15,7 +15,7 @@ body {
     cursor: pointer;
     transition: transform 0.3s, color
  2s;
-animation: beat 2s infinite;
+animation: beat 0.5s infinite;
   }
   
   .heart-button:hover {
