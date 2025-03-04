@@ -13,11 +13,16 @@ body {
     font-size: 50px;
     color: #e63946;
     cursor: pointer;
-    transition: transform 0.3s, color 2s;
+    transition: transform 0.3s, color
+ 2s;
+animation: beat 2s infinite;
   }
   
   .heart-button:hover {
     transform: scale(1.2);
     color: #ff6f61;
   }
-  
+  @keyframes beat{
+0%{transform: scale(1);}
+20%{transform: scale(1.2)}
+}
